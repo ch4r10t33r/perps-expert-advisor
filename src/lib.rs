@@ -20,5 +20,5 @@ pub fn greet() {
 #[wasm_bindgen]
 pub fn print_account() {
     let mut alice = LocalAccount::generate(&mut rand::rngs::OsRng);
-    alert(alice.address().to_hex_literal());
+    println!(alice.address().to_hex_literal());
 }

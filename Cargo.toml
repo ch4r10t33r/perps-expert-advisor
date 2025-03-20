@@ -37,3 +37,4 @@ opt-level = "s"
 [patch.crates-io]
 merlin = { git = "https://github.com/aptos-labs/merlin", branch = "main" }
 x25519-dalek = { git = "https://github.com/aptos-labs/x25519-dalek", branch = "zeroize_v1" }
+getrandom = {git = "https://github.com/rust-random/getrandom", branch = "master" }
